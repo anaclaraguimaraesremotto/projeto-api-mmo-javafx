@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: linear-gradient(to bottom, #9a00ff, #f800ff)linear-gradient(to bottom, #9a00ff, #f800ff);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.PrimaryController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #001133;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.PrimaryController">
    <top>
-      <Button mnemonicParsing="false" onAction="#carregar" prefHeight="35.0" prefWidth="94.0" text="Carregar" BorderPane.alignment="CENTER">
+      <Button mnemonicParsing="false" onAction="#carregar" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #0080ff;" text="Carregar" textFill="WHITE" BorderPane.alignment="CENTER">
          <BorderPane.margin>
             <Insets bottom="20.0" />
          </BorderPane.margin>
@@ -20,6 +20,6 @@
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
    </padding>
    <center>
-      <Pagination fx:id="pagination" prefHeight="392.0" prefWidth="767.0" BorderPane.alignment="CENTER" />
+      <Pagination fx:id="pagination" prefHeight="505.0" prefWidth="896.0" BorderPane.alignment="CENTER" />
    </center>
 </BorderPane>
